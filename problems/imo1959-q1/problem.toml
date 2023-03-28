@@ -1,0 +1,16 @@
+title = "IMO 1959 Problem 1"
+uuid = "fda28524-3b6f-487f-9ccc-b3236c4d6638"
+statementFile = "statement.md"
+rating = 1
+
+[languages.lean3]
+rootDir = "lean3"
+defsFile = ""
+skeletonFile = ""
+checkFile = ""
+
+[languages.lean4]
+rootDir = "lean4"
+defsFile = ""
+skeletonFile = ""
+checkFile = ""
