@@ -1,5 +1,5 @@
-title = "IMO 1959 Problem 1"
-uuid = "fda28524-3b6f-487f-9ccc-b3236c4d6638"
+title = "Example Problem"
+uuid = "056bffcc-6528-409e-b764-4883428c1dbb"
 statementFile = "statement.md"
 rating = 1
 
@@ -8,9 +8,3 @@ rootDir = "lean3"
 defsFile = "defs.lean"
 skeletonFile = "skeleton.lean"
 checkFile = "check.lean"
-
-[languages.lean4]
-rootDir = "lean4"
-defsFile = ""
-skeletonFile = ""
-checkFile = ""
