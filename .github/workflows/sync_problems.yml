@@ -1,0 +1,17 @@
+name: Sync Problem Database
+
+on:
+  push:
+    branches: [ "main" ]
+
+concurrency: sync_problem_database
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Sync
+      run: echo "Syncing with Problem Database"
