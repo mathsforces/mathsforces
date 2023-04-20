@@ -1,3 +1,3 @@
 import .submission .defs
-open nat
-lemma main : ∀ n : ℕ, coprime (21 * n + 4) (14 * n + 3) := imo1959_q1
+
+theorem imo1959_q1_check : GOAL := imo1959_q1
