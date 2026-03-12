@@ -1,0 +1,10 @@
+name = "mathsforces"
+version = "0.1.0"
+defaultTargets = ["mathsforces"]
+
+[[lean_lib]]
+name = "Mathsforces"
+
+[[lean_exe]]
+name = "mathsforces"
+root = "Main"
